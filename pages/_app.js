@@ -1,10 +1,10 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import {createGlobalStyle, ThemeProvider} from 'styled-components';
 import React from 'react';
 
 import Head from 'next/head';
 import db from '../db.json';
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle `
   * {
     box-sizing: border-box;
   }
@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Lato', sans-serif;
     // Deixa branco no começo
     color: ${
-  ({ theme }) => theme.colors.contrastText
+    ({theme}) => theme.colors.contrastText
 };
   }
   html, body {
@@ -30,18 +30,16 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const { theme } = db;
+const {theme} = db;
 
-export default function App({ Component, pageProps }) {
-  return (
-    <>
-      <ThemeProvider theme={theme}>
-        <Head>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
-        </Head>
-        <GlobalStyle />
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </>
-  );
+export default function App({Component, pageProps}) {
+    return (<>
+        <ThemeProvider theme={theme}>
+            <Head>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine"/>
+            </Head>
+            <GlobalStyle/>
+            <Component {...pageProps}/>
+        </ThemeProvider>
+    </>);
 }

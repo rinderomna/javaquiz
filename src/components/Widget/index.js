@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import db from '../../../db.json';
 
-const Widget = styled.div`
+const Widget = styled.div `
+  text-shadow: 1px 1px #111111;
   margin-top: 24px;
   margin-bottom: 24px;
   border: 2px solid #4d0000;
-  background-color: #595959;
+  background-color: #424242;
   border-radius: 10px;
   overflow: hidden;
 
@@ -23,7 +24,9 @@ const Widget = styled.div`
   }
 `;
 
-Widget.Content = styled.div`
+Widget.Content = styled.div `
+  font-size: 22px;
+  font-weight: 600;
   padding: 24px 32px 32px 32px;
   & > *:first-child {
     margin-top: 0;
@@ -37,12 +40,14 @@ Widget.Content = styled.div`
   }
 `;
 
-Widget.Header = styled.header`
+Widget.Header = styled.header `
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 18px 32px;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${
+    ({theme}) => theme.colors.primary
+};
   
   * {
     margin: 0;
