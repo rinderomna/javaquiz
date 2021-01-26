@@ -1,5 +1,7 @@
 import styled from 'styled-components';
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, {
+  Html, Head, Main, NextScript,
+} from 'next/document';
 
 const TopoTitulo = styled.h1`
     font-family: 'Tangerine';
@@ -9,6 +11,6 @@ const TopoTitulo = styled.h1`
     text-align: center;
     text-shadow: 2px 2px #661400;
     margin: 2px;
-`
+`;
 
 export default TopoTitulo;
