@@ -38,7 +38,6 @@ export default function App({ Component, pageProps }) {
       <ThemeProvider theme={theme}>
         <Head>
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
-          <title>JavaQuiz - Imersão Alura Next.js</title>
         </Head>
         <GlobalStyle />
         <Component {...pageProps} />
