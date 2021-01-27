@@ -40,6 +40,24 @@ Widget.Content = styled.div `
   }
 `;
 
+Widget.Topic = styled.a `
+  outline: 0;
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: .3s;
+  display: block;
+
+  & :hover,
+  & :focus {
+    opacity: .5;
+  }
+`;
+
 Widget.Header = styled.header `
   display: flex;
   justify-content: flex-start;
@@ -47,7 +65,7 @@ Widget.Header = styled.header `
   padding: 18px 32px;
   background-color: ${
     ({theme}) => theme.colors.primary
-};
+  };
   
   * {
     margin: 0;

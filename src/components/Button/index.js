@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Button = styled.button `
     display: inline-block;
-    width: 110px;
+    width: 200px;
     white-space: normal;
     word-wrap: break-word;
     padding: 15px 25px;

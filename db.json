@@ -4,25 +4,113 @@
   "description": "Registre-se, jogador",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif",
+      "title": "O que é a JRE?",
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Compilador da linguagem Java",
+        "Ambiente para executar códigos Java",
+        "Conjunto de ferramentas necessárias para um desenvolvedor Java",
+        "Biblioteca do Java"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/3oFyDpRagf96Uz9rzO/giphy.gif",
+      "title": "No Java, o que é um atributo estático?",
+      "answer": 2,
+      "alternatives": [
+         "Atributo que não se altera",
+         "Atributo acessível somente às classes do mesmo pacote",
+         "Atributo associado à classe, não ao objeto",
+         "Atributo acessível apenas às classes filhas"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/M4ecx9P2jI4tq/giphy.gif",
+      "title": "No Java, o que é uma classe abstrata?",
+      "answer": 2,
+      "alternatives": [
+         "Classe que não possui atributos",
+         "Classe cujos atributos são todos privados",
+         "Classe que não pode ser instanciada",
+         "Classe cujos métodos são estáticos"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/DrJm6F9poo4aA/giphy.gif",
+      "title": "No Java, o que é sobrecarga?",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Quando um método possui diferentes construtores",
+         "Quando a pilha de execução não possui mais memória",
+         "Quando uma classe herda todos os atributos de outra",
+         "Quando o algoritmo não consegue lidar com uma exceção"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/5Ztn33chuvutW/giphy.gif",
+      "title": "O que o polimorfismo do Java permite?",
+      "answer": 3,
+      "alternatives": [
+         "Declarar variáveis acessíveis a todos os métodos",
+         "Executar o código em qualquer sistema operacional",
+         "Escrever classes dentro de outras classes",
+         "Referenciar objetos de diferentes formas"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/uS9epqlhBNQOI/giphy.gif",
+      "title": "O que são Wrappers no Java?",
+      "answer": 1,
+      "alternatives": [
+         "Objetos que envolvem outras classes herdadas",
+         "Classes que encapsulam uma variável primitiva",
+         "Classes que adicionam métodos a alguns objetos",
+         "Objetos que implementam métodos abstratos"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/27Ju5pmIEgv04/giphy.gif",
+      "title": "No Java, o que é uma interface?",
+      "answer": 3,
+      "alternatives": [
+         "Objeto que se comunica com outros objetos",
+         "Parte do pacote java.util",
+         "Ferramenta para visualizar o código graficamente",
+         "Classe sem atributos e com todos os métodos abstratos"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/pzryvxGeykOxeC0fWb/giphy.gif",
+      "title": "O que são anotações no Java e qual caracter as identifica?",
+      "answer": 2,
+      "alternatives": [
+         "Marcações para o compilador e as bibliotecas (&)",
+         "Comentários não interpretados pelo compilador (#)",
+         "Marcações para o compilador e as bibliotecas (@)",
+         "Comentários não interpretados pelo compilador(%)"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/12yjKJaLB7DuG4/giphy.gif",
+      "title": "O que é casting?",
+      "answer": 1,
+      "alternatives": [
+         "Quando uma variável é declarada fora do escopo de uma classe",
+         "Quando uma variável de um tipo é atribuída a outro",
+         "Quando uma variável é iterada num for-each-loop",
+         "Quando uma variável do tipo primitivo torna-se de referência"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/3o7WTrvW0BNBaHrF4c/giphy.gif",
+      "title": "Qual dos seguintes termos não é uma das 52 palavras reservadas do Java?",
+      "answer": 3,
+      "alternatives": [
+         "final",
+         "long",
+         "this",
+         "data"
       ]
     }
   ],
