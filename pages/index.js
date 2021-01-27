@@ -10,6 +10,7 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import TopoTitulo from '../src/components/TopoTitulo';
 import QuizContainer from '../src/components/QuizContainer';
 import Button from '../src/components/Button';
+import Input from '../src/components/Input';
 
 export default function Home() {
     const router = useRouter();
@@ -18,9 +19,9 @@ export default function Home() {
     return (
         <QuizBackground backgroundimage={
             db.bg
-        }>
+        }> 
             <Head>
-                <title>JavaQuiz - Imersão Alura Next.js</title>
+                
             </Head>
             <QuizContainer>
                 <TopoTitulo>JavaQuiz</TopoTitulo>
@@ -35,18 +36,24 @@ export default function Home() {
                             db.description
                         } </p>
 
-                        <form onSubmit={ function(event) {
-                            event.preventDefault();
-                            router.push(`/quiz?name=${name}`);
-                        }}>
-                            <input
-                                onChange={function(event) {
-                                    setName(event.target.value);
-                                }}
+                        <form onSubmit={
+                            function (event) {
+                                event.preventDefault();
+                                router.push(`/quiz?name=${name}`);
+                            }
+                        }>
+                            <Input onChange={
+                                    function (event) {
+                                        setName(event.target.value);
+                                    }
+                                }
                                 placeholder="Digite seu Nome"/>
-                            <Button type="submit" disabled={name.length < 3}>Jogar</Button>
+                            <Button type="submit"
+                                disabled={
+                                    name.length < 3
+                            }>Jogar</Button>
                         </form>
-                        
+
                         <p>Jogador: {name}</p>
 
                     </Widget.Content>
