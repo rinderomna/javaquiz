@@ -41,7 +41,7 @@
       "title": "No Java, o que é sobrecarga?",
       "answer": 0,
       "alternatives": [
-         "Quando um método possui diferentes construtores",
+         "Quando um método pode receber diferentes argumentos",
          "Quando a pilha de execução não possui mais memória",
          "Quando uma classe herda todos os atributos de outra",
          "Quando o algoritmo não consegue lidar com uma exceção"
