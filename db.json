@@ -77,7 +77,7 @@
          "Objeto que se comunica com outros objetos",
          "Parte do pacote java.util",
          "Ferramenta para visualizar o código graficamente",
-         "Classe sem atributos e com todos os métodos abstratos"
+         "Classe abstrata sem atributos e com todos os métodos abstratos"
       ]
     },
     {
